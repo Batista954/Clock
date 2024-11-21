@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: cornflowerblue;
+}
+
+.klok {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  width: 550px;
+  background: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(1, 12, 110, 0.5);
+}
+
+.tijd {
+  font-size: 2rem;
+  text-align: center;
+}
